@@ -112,3 +112,4 @@ JOIN [Portfolio Project 1]..CovidVaccintions vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
 WHERE dea.continent is not NULL
+
