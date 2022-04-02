@@ -138,4 +138,3 @@ DROP COLUMN OwnerAddress, PropertyAddress, SaleDate, TaxDistrict;
 
 SELECT *
 FROM [Portfolio Project 1]..NashvilleHousingData;
-
