@@ -108,7 +108,7 @@ CREATE VIEW RollingCount as
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
 , SUM(CONVERT(bigint, vac.new_vaccinations)) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) as RollingCount
 FROM [Portfolio Project 1]..CovidDeaths dea
-JOIN [Portfolio Project 1]..CovidVaccintions vac
+JOIN [Portfolio Project 1]..CovidVaccinations vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
 WHERE dea.continent is not NULL;
