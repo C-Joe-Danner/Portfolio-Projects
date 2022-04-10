@@ -3,11 +3,11 @@ import random
 import time
 
 reddit = praw.Reddit(
-    client_id="1FQC1v7CP_vwdbjpy-dqbg",
-    client_secret="0ETl1T6AyygxPxek4wLNAlFiTFzC-g",
+    client_id="xxxxxxxx",
+    client_secret="xxxxxxxxxxxx",
     user_agent="<console:CountDonut:1.0>",
     username="count-donut-bot",
-    password="DonutDraculaPW1!",
+    password="xxxxxxxx",
     check_for_async=False
 )
 
